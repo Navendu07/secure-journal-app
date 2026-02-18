@@ -26,7 +26,7 @@ public class SwaggerConfig {
                 )
                 .servers(List.of(
                     new Server()
-                            .url("https://secure-journal-app.onrender.com")
+                            .url("/")
                             .description("Production Server")
             ))
                 .tags(Arrays.asList(
